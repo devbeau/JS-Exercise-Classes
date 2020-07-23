@@ -171,7 +171,7 @@ class Student extends Lambdasian{
     if (this.grade > 70){return `${this.name}, you have graduated with a score of ${this.grade}!`}
     else {return `${this.name}, your grade of ${this.grade} is NOT good enough. Go back to working your assignments!`}
   }
-
+}
 /*
   TASK 6
     - Write a ProjectManager class extending Instructor.
